@@ -1,0 +1,23 @@
+Core Concepts of a Taipy Application are as follows:
+
+
+-> This is the core class responsible for creating and running the graphical user interface.
+-> A string containing the content to be displayed, usually written in Markdown or HTML.
+-> This allows dynamic linking of Python variables to the GUI components for real-time updates.
+-> These are predefined UI elements like buttons, sliders, charts, etc., that can be easily added to the GUI.
+-> Functions that are triggered by user interactions with the GUI elements.
+-> The run() method of the Gui class starts the Taipy server and renders the application.
+-> Styles and layouts can be customized using CSS and additional HTML for advanced designs.
+-> Taipy easily integrates with other Python libraries and tools for enhanced functionality.
+
+Structure of a Taipy Application are as follows:
+
+-> Import the Gui class from the Taipy library.
+-> Create a string variable containing the content to be displayed.
+-> Instantiate the Gui class with the page content.
+-> Call the run() method on the Gui instance to start the application.
+
+
+
+
+
